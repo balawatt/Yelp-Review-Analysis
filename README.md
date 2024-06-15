@@ -7,15 +7,15 @@ on :  1) database modeling / schema design (per business understanding, use case
 design logic (why this database, why this schema, why this BI tool..)
 
 * Tech : Python 3, Pyspark, Mysql/AWS RDS S3, Redash, Alembic, Docker 
-* Data process  : [transform_all_json_2_csv.sh](https://github.com/yennanliu/YelpReviews/blob/master/script/transform_all_json_2_csv.sh)
-* DB modeling  : [Alembic ddl](https://github.com/yennanliu/YelpReviews/tree/master/ddl)
-* Data storage : [all_csv_2_mysql.sh](https://github.com/yennanliu/YelpReviews/blob/master/script/all_csv_2_mysql.sh)
-* ETL  : [spark etl](https://github.com/yennanliu/YelpReviews/tree/master/etl)
+* Data process  : [transform_all_json_2_csv.sh](https://github.com/balawatt/YelpReviews/blob/master/script/transform_all_json_2_csv.sh)
+* DB modeling  : [Alembic ddl](https://github.com/balawatt/YelpReviews/tree/master/ddl)
+* Data storage : [all_csv_2_mysql.sh](https://github.com/balawatt/YelpReviews/blob/master/script/all_csv_2_mysql.sh)
+* ETL  : [spark etl](https://github.com/balawatt/YelpReviews/tree/master/etl)
 * Analysis/data visualization  : [redash dashboard](https://app.redash.io/yen_dev/public/dashboards/xpfG9wKgb9qEcMHlGiSpjhFn8dCZuun8XbCN52GN)
-* Presentation  : [YelpReview_DS_demo](https://github.com/yennanliu/YelpReviews/blob/master/doc/YelpReview_DS_demo.pdf)
+* Presentation  : [YelpReview_DS_demo](https://github.com/balawatt/YelpReviews/blob/master/doc/YelpReview_DS_demo.pdf)
 
 ### Framework
-<img src ="https://github.com/yennanliu/YelpReviews/blob/master/doc/framework.png" width="800" height="400">
+<img src ="https://github.com/balawatt/YelpReviews/blob/master/doc/framework.png" width="800" height="400">
 
 
 ### DB model  
@@ -23,10 +23,10 @@ design logic (why this database, why this schema, why this BI tool..)
 <summary>DB model</summary>
 
 #### DB model 
-<img src ="https://github.com/yennanliu/YelpReviews/blob/master/doc/db_model.png" width="800" height="400">
+<img src ="https://github.com/balawatt/YelpReviews/blob/master/doc/db_model.png" width="800" height="400">
 
 #### DB model V2
-<img src ="https://github.com/yennanliu/YelpReviews/blob/master/doc/db_model_V2.png" width="800" height="400">
+<img src ="https://github.com/balawatt/YelpReviews/blob/master/doc/db_model_V2.png" width="800" height="400">
 
 </details> 
 
@@ -34,7 +34,7 @@ design logic (why this database, why this schema, why this BI tool..)
 <details>
 <summary>Visualization</summary>
 
-<img src ="https://github.com/yennanliu/YelpReviews/blob/master/doc/dash.png" width="800" height="400">
+<img src ="https://github.com/balawatt/YelpReviews/blob/master/doc/dash.png" width="800" height="400">
 
 </details>
 
@@ -62,13 +62,13 @@ design logic (why this database, why this schema, why this BI tool..)
 <details>
 <summary>Prerequisites</summary>
 
-1. Fork the repo :  `git clone https://github.com/yennanliu/YelpReviews.git`
-2. Download [Kaggle dataset](https://www.kaggle.com/yelp-dataset/yelp-dataset) and and save at [data file](https://github.com/yennanliu/YelpReviews/tree/master/data)
+1. Fork the repo :  `git clone https://github.com/balawatt/YelpReviews.git`
+2. Download [Kaggle dataset](https://www.kaggle.com/yelp-dataset/yelp-dataset) and and save at [data file](https://github.com/balawatt/YelpReviews/tree/master/data)
 3. Download/launch mysql server local, and create a database `yelp` (for development)
 4. Set up AWS RDS mysql database (for prodution, `optional`)
-5. Modify [mysql db config](https://github.com/yennanliu/YelpReviews/blob/master/config/mysql.config) with yours 
-6. Modify [RDS mysql db config](https://github.com/yennanliu/YelpReviews/blob/master/config/mysql_rds.config) with yours  (`optional`)
-7. Modify DB connection (e.g. `sqlalchemy.url = <your_mysql_url>`)in [alembic.ini](https://github.com/yennanliu/YelpReviews/blob/master/alembic.ini) with yours 
+5. Modify [mysql db config](https://github.com/balawatt/YelpReviews/blob/master/config/mysql.config) with yours 
+6. Modify [RDS mysql db config](https://github.com/balawatt/YelpReviews/blob/master/config/mysql_rds.config) with yours  (`optional`)
+7. Modify DB connection (e.g. `sqlalchemy.url = <your_mysql_url>`)in [alembic.ini](https://github.com/balawatt/YelpReviews/blob/master/alembic.ini) with yours 
 </details>
 
 ### Quick start
