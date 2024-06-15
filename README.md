@@ -130,3 +130,5 @@ $ bash etl/etl_user_friend_count.sh
 	- https://paulx-cn.github.io/blog/6th_Blog/
 
 </details>
+
+this was a good project for me to learn!
