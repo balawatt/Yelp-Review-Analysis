@@ -1,6 +1,6 @@
 ### Quick start
 ```bash
-git clone https://github.com/yennanliu/YelpReviews.git 
+git clone https://github.com/balawatt/YelpReviews.git 
 cd YelpReviews/superset/mysql
 bash run_docker_instance.sh
 ```
